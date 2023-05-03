@@ -1,0 +1,22 @@
+{
+  "name": "googlegmailapi",
+  "version": "1.0.0",
+  "description": "This is Automated Reply Gmail Through Gmail Api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "author": "Gautam Dhakate",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "axios": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0",
+    "qs": "^6.11.1"
+  }
+}
